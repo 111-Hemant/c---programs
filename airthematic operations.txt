@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    //To perform all airthematic operation
+    int a,b,sum,mul,sub;
+    float divi;
+    scanf("%d%d",&a,&b);
+    sum=a+b;
+    mul=a*b;
+    divi=a/b;
+    sub=a-b;
+    printf("%d\n%d\n%f\n%d",sum,mul,divi,sub);
+    
+    
+}

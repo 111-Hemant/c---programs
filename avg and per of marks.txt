@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,c,b,d,e,f,n,g,t;
+    scanf("%f%f%f%f%f%f",&a,&b,&c,&d,&e,&n);
+    t=a+b+c+d+e+n;
+    f=t/6;
+    g=(t*100)/180;
+    printf("Average marks =%f\n",f);
+    printf("percentage =%f\n",g);
+
+    return 0;
+}

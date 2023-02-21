@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c;
+    scanf("%f%f",&a,&b);
+    c=0.5*a*b;
+    printf("Area of tringle %f\n",c);
+    return 0;
+}

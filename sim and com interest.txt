@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,c,b,t,s,h,n;
+    
+    scanf("%f%f%f",&a,&b,&c);
+    t=(a*b*c)/100;
+    printf("Simple interest =%f\n",t);
+    s=1+b/100;
+    h=pow(s,c);
+    n=a*h;
+    
+    printf("Compound interest =%f",n);
+    
+    return 0;
+}

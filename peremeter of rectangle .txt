@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    
+    int a,b,peremeter;
+    scanf("%d%d",&a,&b);
+    peremeter=2*a*b;
+    printf("peremeter of rectangle =%d",peremeter);
+    
+    
+}

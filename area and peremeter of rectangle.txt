@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,peremeter;
+    float area;
+    scanf("%d%d",&a,&b);
+    peremeter=2*a*b;
+    area=a*b;
+    printf("peremeter of rectangle =%d\n",peremeter);
+    printf("area of rectangle  =%f",area);
+    
+    
+}

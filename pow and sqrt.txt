@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,b,c,d,e;
+    scanf("%f%f",&a,&b);
+    scanf("%f",&c);
+    d=pow(a,b);
+    e=sqrt(c);
+    printf("a^b =%f\n",d);
+    printf("sqrt of c =%f",e);
+    return 0;
+}

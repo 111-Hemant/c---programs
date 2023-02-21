@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    float area,r,cir,d;
+    scanf("%f",&r);
+    cir=2*3.14*r;
+    area=3.14*r*r;
+    d=2*r;
+    printf("circumference of circle =%f\n",cir);
+    printf("area of circle  =%f\n",area);
+    printf("diameter of circle  =%f",d);
+    
+    
+}

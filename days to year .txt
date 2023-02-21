@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float days,year,week;
+    scanf("%f",&days);
+    year=days/365;
+    week=days/7;
+    printf("year =%f\n",year);
+    printf("week =%f",week);
+    return 0;
+}

@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    float a,c,b;
+    scanf("%f",&a);
+    b=pow(3,0.5);
+    c=(b*a)/4;
+    printf("Area of tringle %f\n",c);
+    return 0;
+}

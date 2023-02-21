@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    float l,m,km;
+    scanf("%f",&l);
+    m=l/100;
+    km=m/1000;
+    printf("meter =%f\n",m);
+    printf("kilo meter =%f",km);
+    return 0;
+}
