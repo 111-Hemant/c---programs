@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+    float c,f,s;
+    printf("enter the value of fehernhite\n");
+    scanf("%f",&f);
+    s=5.0/9;
+    c=(f-32)*s;
+    printf("%f",c);
+}
